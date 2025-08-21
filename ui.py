@@ -592,14 +592,14 @@ def step_4_review_and_send():
                         st.balloons()
                         
                         # Show success message with option to start new application
-                        if st.button("🆕 New Application", key="new_app_button"):
+                        if st.button("🆕 Start New Application", key="new_app_button"):
                             # Reset for new application but keep credentials
                             keys_to_keep = ['api_key', 'gmail_email', 'gmail_password']
                             keys_to_reset = [key for key in st.session_state.keys() if key not in keys_to_keep]
                             for key in keys_to_reset:
                                 del st.session_state[key]
                             initialize_session_state()
-                            st.session_state.workflow_step = 2
+                            st.session_state.workflow_step = 1
                             st.rerun()
                         
                     except Exception as e:

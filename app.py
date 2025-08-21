@@ -8,8 +8,8 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
     menu_items={
-        'Get Help': 'https://github.com/tayyabeh/job-email-assistant',
-        'Report a bug': 'https://github.com/tayyabeh/job-email-assistant/issues',
+        'Get Help': 'https://github.com/tayyabeh/Job-Email-Assistant-Agent',
+        'Report a bug': 'https://github.com/tayyabeh/Job-Email-Assistant-Agent/issues',
         'About': "# AI Job Application Assistant\n\nCraft professional job applications with AI assistance.\n\nVersion: 1.0.0"
     }
 )
@@ -56,7 +56,6 @@ st.markdown("""
     
     /* Hide Streamlit Elements */
     #MainMenu {visibility: hidden;}
-    header {visibility: hidden;}
     footer {visibility: hidden;}
     .stDeployButton {display: none;}
     
@@ -510,11 +509,11 @@ def main():
                 <p style="margin: 0.5rem 0; font-size: 0.9rem;">Streamline your job search with AI-powered applications</p>
             </div>
             <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; margin-bottom: 1rem;">
-                <a href="https://github.com/yourusername/job-email-assistant" target="_blank" 
+                <a href="https://github.com/tayyabeh/Job-Email-Assistant-Agent" target="_blank" 
                    style="color: var(--primary); text-decoration: none; font-size: 0.9rem;">
                     📚 Documentation
                 </a>
-                <a href="https://github.com/yourusername/job-email-assistant/issues" target="_blank" 
+                <a href="https://github.com/tayyabeh/Job-Email-Assistant-Agent/issues" target="_blank" 
                    style="color: var(--primary); text-decoration: none; font-size: 0.9rem;">
                     🐛 Report Issue
                 </a>
